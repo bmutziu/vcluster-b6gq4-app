@@ -10,7 +10,7 @@ imagePullSecrets:
   - name: ghcr-login-secret
 deployment:
   # used to specify commit sha in CI job
-  commit: 204878bd21a0f30dc5a2a64a986c5fb5c77c0544
+  commit: c6272e987d5e5dfe9273cae927dfecb8e0e50666
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
